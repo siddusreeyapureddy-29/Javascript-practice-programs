@@ -1,0 +1,22 @@
+<html>
+    <head>
+    <title>First jsp file</title>
+    </head>
+    <body>
+        <p id="para1"></p>
+        <button type="button" onclick="dispaly()">CLICK</button>
+        <script>
+        let count=0;
+            function dispaly(){
+                if(count==0){
+                    document.getElementById("para1").innerHTML="JAVA FULL STACK";
+                    count++;
+                }
+                else{
+                    document.getElementById("para1").innerHTML="";
+                    count--;
+                }
+            }
+        </script>
+    </body>
+</html>

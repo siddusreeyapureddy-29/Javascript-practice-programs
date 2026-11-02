@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Form example</title>
+    </head>
+    <body>
+        <input type="text" name="firstname" id="firstname" placeholder="FIRST NAME">
+        <p id="para"></p>
+        <button type="button" onclick="display()">CLICK</button>
+        <script>
+            function display(){
+               let firstname=document.getElementById("firstname").value;
+               if(firstname==""){
+                    document.getElementById("para").innerHTML="Enter First Name";
+                    document.getElementById("para").style.color="red";
+               }
+               else{
+                document.getElementById("para").innerHTML=firstname;
+                document.getElementById("para").style.color="green";
+               }
+            }
+        </script> 
+    </body>
+</html>

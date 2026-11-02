@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol Example</title>
+</head>
+<body>
+    <script>
+        let student1=Symbol("studentId");
+        console.log(student1);
+
+        let s1=Symbol("id");
+        let s2=Symbol("id");
+        if(s1==s2){
+            console.log("Both symbols are equal");
+        }
+        else{
+            console.log("Both symbols are not equal");
+        }
+
+        let studentKey=Symbol("studentKey");
+        let student={
+            name:"siddu",
+            age:22
+        }
+        student[studentKey]=101;
+        console.log(student[studentKey]);
+
+    </script>
+</body>
+</html>

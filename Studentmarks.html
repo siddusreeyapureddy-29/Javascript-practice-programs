@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Student marks</title>
+    </head>
+    <body>
+        <script>
+            let  math=Number(prompt("Enter marks in maths"));
+            let  java=Number(prompt("Enter marks in java"));
+            let sql=Number(prompt("Enter marks in sql"));
+            
+            if(math<35||java<35||sql<35){
+                console.log("Fail");
+            }else {
+                let sum=math+java+sql;
+               let avg=sum/3;
+            if(avg>=90){
+                console.log("Excellent");
+            }else if(avg>=75){
+                console.log(" very Good");
+            }else if(avg>=60){
+                console.log(" Good");
+            }else if(avg>=50){
+                console.log("pass");
+            }else{
+                console.log("fail");
+            }
+        }
+        </script>
+    </body>
+</html>

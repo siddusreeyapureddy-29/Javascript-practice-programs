@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>most frequesnt words in a string</title>
+</head>
+<body>
+    <script>
+        let str="siddu sai triveni";
+        let str1=str.split("");
+        let max=0;
+        let ch;
+        for(let i=0;i<str1.length;i++){
+              let count=0;
+            for(j=0;j<str1.length;j++){
+                if(str[i]==str[j]){
+                    count++;
+                }
+            }
+            if(count>max){
+                max=count;
+                ch=str[i];
+            }
+        }
+        console.log(ch+":"+max);
+        console.log(str.includes("sai"));
+    </script>
+    
+</body>
+</html>

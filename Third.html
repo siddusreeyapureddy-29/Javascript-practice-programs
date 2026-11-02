@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+        <p id="para"></p>
+        <input type="text" name="firstname" id="firstname" placeholder="FIRSTNAME">
+        <button type="button" id="Buttonbtn">click</button>
+        <script>
+            document.getElementById("Buttonbtn").addEventListener("click",display);
+            function display(){
+                let firstname=document.getElementById("firstname").value;
+                document.getElementById("para").innerHTML=firstname;
+            }
+        </script>
+    </body>
+</html>

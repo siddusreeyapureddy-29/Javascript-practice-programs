@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Registration </title>
+    </head>
+    <body>
+        <form>
+            <input type="number" id="number">
+            <button type="button" onclick="display()">CLICK</button>
+            <script>
+            function display(){
+                let num=document.getElementById("number").value;
+                if(num>0){
+                    alert("positive number");
+                }
+                else if(num<0){
+                    alert("negative number");
+                }
+                else{
+                    alert("Zero");
+                }
+            }
+            </script>
+
+        </form>
+    </body>
+</html>
