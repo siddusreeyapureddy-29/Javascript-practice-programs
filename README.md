@@ -1,4 +1,4 @@
-# Javascript-practice-programs
+
 # JavaScript Practice Programs
 
 ## 📌 About This Repository
@@ -74,42 +74,6 @@ It includes programs ranging from basic JavaScript concepts to advanced topics, 
 - Symbols
 - Iterators
 
-## 📂 Repository Structure
-
-```text
-Javascript-practice-programs/
-│
-├── Basics/
-├── Arrays/
-├── Strings/
-├── Objects/
-├── Functions/
-├── ES6/
-├── Callbacks/
-├── Promises/
-├── Async-Await/
-├── DOM/
-│
-└── README.md
-```
-
-*The folder structure will grow as more programs are added.*
-
-## 🚀 How to Run the Programs
-
-1. Clone the repository:
-
-   ```bash
-   git clone <your-github-repository-url>
-   ```
-
-2. Open the project folder in Visual Studio Code.
-
-3. Open the required JavaScript or HTML file.
-
-4. Run the HTML file in a browser.
-
-5. Open Developer Tools using `F12` to view console output.
 
 ## 📈 Learning Outcomes
 
